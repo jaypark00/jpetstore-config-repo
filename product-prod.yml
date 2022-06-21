@@ -1,7 +1,7 @@
 server:
   tomcat:
     threads:
-      max: 100
+      max: 50
     accept-count: 50
   port: ${PRODUCT_PORT}
 
@@ -15,7 +15,7 @@ management:
   endpoints:
     web:
       exposure:
-        include: health,info,metrics,refresh,bus-refresh
+        include: health,info,env,metrics,refresh,bus-refresh
 
 spring:
   datasource:
