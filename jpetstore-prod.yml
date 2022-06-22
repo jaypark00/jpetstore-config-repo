@@ -55,13 +55,13 @@ feign:
 order-api:
   ribbon:
     eureka:
-      enabled: true
+      enabled: false
     listOfServers: order:16061
 
 catalog-api:
   ribbon:
     eureka:
-      enabled: true
+      enabled: false
     listOfServers: product:17071
 
 #eureka:
