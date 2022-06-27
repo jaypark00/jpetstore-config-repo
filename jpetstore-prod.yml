@@ -62,7 +62,7 @@ catalog-api:
   ribbon:
     eureka:
       enabled: false
-    listOfServers: product:17071,product2:17071
+    listOfServers: product:17071
 
 #eureka:
 #  instance:
